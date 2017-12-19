@@ -1,5 +1,12 @@
-body {
-
+body{
+    text-align: center;
+}
+main, header {
+    max-width: 960px ;
+    background: #3aaeea;
+    margin: auto;
+    text-align: left;
+    
 }
 
 /* Catalog */
