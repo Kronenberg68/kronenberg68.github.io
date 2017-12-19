@@ -1,21 +1,44 @@
 body{
     text-align: center;
+    background: #3aaeea;
 }
 main, header {
     max-width: 960px ;
-    background: #3aaeea;
+    background: #1797da;
     margin: auto;
     text-align: left;
+
     
 }
+
 
 /* Catalog */
 @media screen and (min-width: 640px) {
     .catalog-list {
         display: flex;
         flex-wrap: wrap;
+       
     }
     .catalog-item {
         width: 50%;
     }
+}
+.catalog-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background: white;
+}
+.catalog-item img {
+
+    
+}
+
+.bloc {
+    padding: 40px;
+}
+
+a {
+    padding: 10px;
+    background: #1797da;
 }
