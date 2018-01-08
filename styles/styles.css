@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background: #68CEFF;
+    font-family: caviar dreams;
 }
 main, header {
     max-width: 960px ;
@@ -11,9 +12,14 @@ main, header {
     
 }
 
+
 h2 {
     margin: auto;  
     text-align: center;
+}
+
+h3{
+    color:#117EB2;
 }
 
 
@@ -50,6 +56,7 @@ a {
     padding: 10px;
     background: #117EB2;
     display: flex;
+    border-radius:5px;
 }
 article {
     padding:10px;
