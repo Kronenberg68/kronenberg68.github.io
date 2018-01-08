@@ -13,13 +13,14 @@ main, header {
 }
 
 
-h2 {
+h2,h1 {
     margin: auto;  
-    text-align: center;
+    text-align: center; font-family: anton;
 }
 
 h3{
     color:#117EB2;
+    font-family: anton;
 }
 
 
@@ -28,13 +29,11 @@ h3{
     .catalog-list {
         display: flex;
         flex-wrap: wrap;
-       
-    }
-    .catalog-item {
-        width: 50%;
-    }
 }
+    
+    
 .catalog-item {
+    width: 50%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -50,6 +49,7 @@ h3{
 
 .bloc {
     padding: 40px;
+    
 }
 
 a {
