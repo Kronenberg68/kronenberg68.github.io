@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
  <meta charset="UTF-8">
@@ -9,6 +9,10 @@
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    
+    <!--Mavo-->
+    <link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
+    <script src="https://get.mavo.io/mavo.js"></script>
 </head>
 
 <body>
@@ -18,14 +22,14 @@
     </header>
         <br/>
     
-    <main>
+    <main mv-app="test" mv-storage="https://github.com/kronenberg68" mv-plugins="locale-fr">
         <h2>Nos conférences à venir</h2>
         
         <div class="catalog-list">
-            <article class="catalog-item">
-                <img src="img/aurelie.jpg">
+            <article class="catalog-item" property="conference"mv-multiple>
+                <img src="img/aurelie.jpg"property="image">
                 <div class="bloc">
-                    <h3 class="catalog-title">Prestashop</h3>
+                    <h3 class="catalog-title"property="title">Prestashop </h3>
                     <p class="catalog-summary">Découvrez l'aventure e-commerce.</p>
                     <a href="#">En savoir plus / s'inscrire</a>
                 </div>
@@ -35,7 +39,7 @@
                 <img src="img/guillaumette.jpg">
                 <div class= "bloc">
                     <h3 class="catalog-title">Wire Frame</h3>
-                    <p class="catalog-summary">qu'est-ce que les  les wire frames et à quoi servent-ils? </p>
+                    <p class="catalog-summary" property="summary">qu'est-ce que les  les wire frames et à quoi servent-ils? </p>
                     <a href="#">En savoir plus / s'inscrire</a>
                 </div>
             </article>
