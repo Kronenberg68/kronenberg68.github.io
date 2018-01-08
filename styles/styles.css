@@ -1,10 +1,10 @@
 body{
     text-align: center;
-    background: #3aaeea;
+    background: #68CEFF;
 }
 main, header {
     max-width: 960px ;
-    background: #1797da;
+    background: #117EB2;
     margin: auto;
     text-align: center;
 
@@ -33,6 +33,9 @@ h2 {
     flex-wrap: nowrap;
     flex-direction: row;
     background: white;
+    padding:10px;
+    margin:20px;
+    width: calc(50% - 60px);
 }
 .catalog-item img {
 
@@ -45,9 +48,10 @@ h2 {
 
 a {
     padding: 10px;
-    background: #1797da;
+    background: #117EB2;
     display: flex;
 }
 article {
-
+    padding:10px;
+    margin:20px;
 }
