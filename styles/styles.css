@@ -2,6 +2,7 @@ body{
     text-align: center;
     background: #68CEFF;
     font-family: caviar dreams;
+    font-family: 'Josefin Sans', sans-serif;
 }
 main, header {
     max-width: 960px ;
@@ -11,11 +12,16 @@ main, header {
 
     
 }
+header {
+    background-image: url("../img/city2.jpeg");
+    background-size:cover;
+    height:200px;
+}
 
 
 h2,h1 {
     margin: auto;  
-    text-align: center; font-family: anton;
+    text-align: center; font-family: anton,impact;
 }
 
 h3{
@@ -52,7 +58,7 @@ h3{
     
 }
 
-# {
+a {
     padding: 10px;
     background: #117EB2;
     display: flex;
